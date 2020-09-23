@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #A3CEBA;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Source Code Pro';
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.calc{
+    background-color: #2E3951;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 300px;
+}
+
+.screen-result{
+    background-color: #212b41;
+    color: #37b3b7;
+    font-size: 70px;
+    text-align: right;
+    padding: 40px 15px 15px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.btn{
+    background-color: #2E3951;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    color: #96A8A0;
+    width: 40px;
+    outline: 0;
+    height: 40px;
+}
+
+.btn-clear{
+    cursor: default;
+    width: 30px;
+    height: 30px;
+}
+
+.btn-op{
+    background-color: #212B41;
+    color: #37b3b7;
+}
+
+.btn-equal{
+    background-color: #37B387;
+    color: #212b41;
+}
+
+.btn:active{
+    background-color: #313E5A;
+}
+
+.btn-op:active{
+    background-color: #27324C;
+}
+
+.btn-equal:active{
+    background-color: #41CA99;
+}
